@@ -1,0 +1,27 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "lvCQG8cCxqficLk+LttK+OvjY+kGEoGHRWop15GMRVg1TU8oQTFHsNCJIEJMEYYfDjqpfM0sxeXRILHsoullvHqzmN6X7HmMRHqOjr3G0AXp2FtlU91l2+2ZbtUpL8p2cc6Y6JdCOUiADpqc4GZktNpGoED1rMVltIjdbhLGVgO0tYaNtQ\/dV52tpmn+Lcm+\/3pCU8\/wXdnCfkkMB0QZc6psJavFUF6dLfDRzagLuxiwgOQmNQraUG99e4YLDmoQ",
+      "matchValue" : ".+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "拦截100@king",
+  "description" : "更多资源获取\nQQ群：547199358\nTG群组：https:\/\/t.me\/yqc_777\nTG频道：https:\/\/t.me\/yqc_123\n下载地址：http:\/\/t.cn\/A6MLFAJf\n（此规则免费,如果你付费了 那么恭喜你被骗了）\n⚠️此规则仅供学习与交流，请勿盗包与贩卖！\n版本3.0.2",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "tagit.hyhuo.com",
+      "path" : "\/cypt\/block100\/get_vip_info"
+    }
+  ]
+}
